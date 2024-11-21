@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VivaTur Sênior</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pacotes">Pacotes</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+
+  
+
+
+    <div  id="home" class="header-content">
+       <!-- <h1>Veneza</h1>
+      <p>Conheça Veneza, e viva aventuras extraodinarias, o embarque está proximo, junte-se a nós nessa experiência</p> 
+      <button>Saiba mais</button>  -->
+    </div> 
+  </header>
+
+  <section id="pacotes" class="pacotes">
+    <h1 class="pacotes-title">Conheça nossos pacotes</h1>
+
+<!--Maceio-->
+    <div class="pacotes-cards">
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 2252,00</p>
+        </div>
+        <img class="card-image" src="assets/maceio.jpg" alt="Paris">
+        <div class="card-content">
+          <h1>Maceio</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+        <div class="text-rm">
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro1.html">Roteiro</a></li></button>
+        </div>
+      </div>
+
+<!--Joao Pessoa-->
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 2290,43</p>
+        </div>
+        <img class="card-image" src="assets/joaoPessoa.jpeg" alt="Miami">
+        
+
+        <div class="card-content">
+          <h1>João Pessoa </h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio </li>
+          </ul>
+        </div>
+        <div class="text-rm">
+         
+
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro.html">Roteiro</a></li></button>
+        </div>
+      </div>
+
+<!--Recife-->      
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 3.540,00</p>
+        </div>
+        <img class="card-image" src="assets/recife.jpg" alt="Berlim">
+        <div class="card-content">
+          <h1>Recife</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+        <div class="text-rm">
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro2.html">Roteiro</a></li></button>
+        </div>
+      </div>
+
+<!--Porto de galinhas - Pernambuco-->
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 2028,00</p>
+        </div>
+        <img class="card-image" src="assets/PortoDeGalinhas.jpg" alt="Fortaleza">
+        <div class="card-content">
+          <h1>Porto de galinhas - Pernambuco </h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+        <div class="text-rm">
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro3.html">Roteiro</a></li></button>
+        </div>
+      </div>
+<!--Pará-->
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 3530</p>
+        </div>
+        <img class="card-image" src="assets/belem.jpg" alt="jericoacoara">
+        <div class="card-content">
+          <h1>Belém - Pará</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio </li>
+          </ul>
+        </div>
+        <div class="text-rm">
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro4.html">Roteiro</a></li></button>
+        </div>
+      </div>
+<!--Natal-->
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Promoção</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 5709,00</p>
+        </div>
+        <img class="card-image" src="assets/natal.jpg" alt="Canada">
+        <div class="card-content">
+          <h1>Natal</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+        <div class="text-rm">
+          <button  onclick="roteiro()" id="btnRoteiro">
+            <li><a href="roteiro5.html">Roteiro</a></li></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section  id="servicos" class="servicos">
+    <h1 class="servicos-title">Serviços</h1>
+    <div class="servicos-cards">
+      <div class="card">
+        <i data-feather="map"></i>
+        <div class="card-content">
+          <h3>Tour guiados</h3>     
+        </div>
+      </div>
+
+      <div class="card">
+        <i data-feather="camera"></i>
+        <div class="card-content">
+          <h3>Fotográfia Profissional</h3>
+        </div>
+      </div>
+      
+      <div class="card">
+        <i data-feather="navigation"></i>
+        <div class="card-content">
+          <h3>Aluguel de Veículo</h3>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="contato-card">
+      <h1>Entre em contato</h1>
+      <ul>
+        <!-- <li><i data-feather="map-pin"></i>Rua central</li> -->
+        <li><i data-feather="mail"></i>vendas@vivatursenior.com.br</li>
+        <li><i data-feather="phone"></i>(11) 98765-4321</li>
+        
+      </ul>
+    </div>
+    <!--The div element for the map -->
+    <div id="map"></div>
+  </section>
+
+
+  <script>
+    // feather icons
+    feather.replace();
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+            });
+        });
+    });
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      // var uluru = {lat: -25.344, lng: 131.036};
+      var uluru = { lat: -3.71839, lng: -38.5434 };
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), { zoom: 4, center: uluru });
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+  </script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+  </script>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
